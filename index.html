@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,154 +7,159 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <form action="https://httpbin.org/anything" method="post">
-      <div class="container">
-        <div class="text">
-          <h1>Bli IKEA Family medlem</h1>
-          <p>Är du redan medlem? Logga in</p>
-          <img src="IKEA img.png" alt="" />
-        </div>
-        <div class="myForm">
-          <div class="uppgifter">
-            <h3>
-              Vad kul att du vill skapa ett konto hos oss! Bli IKEA Family
-              medlem helt utan kostnad och ta del av erbjudanden och förmåner.
-              Mer information
-            </h3>
-            <label for="prsnr">Personnummer</label>
-            <input
-              id="prsnr"
-              name="prsnr"
-              type="text"
-              required
-              aria-required="true"
+    <main>
+      <form action="https://httpbin.org/anything" method="post">
+        <div class="container">
+          <div class="text">
+            <h1>Bli IKEA Family medlem</h1>
+            <p>Är du redan medlem? Logga in</p>
+            <img
+              src="/IKEAimg.png"
+              alt="glada människor i harmonisk miljö som handlar, umgås, äter grönsaker."
             />
           </div>
-          <div class="uppgifter">
-            <label for="förnamn">Förnamn</label>
-            <input
-              id="förnamn"
-              name="förnamn"
-              type="text"
-              required
-              aria-required="true"
-            />
-          </div>
-          <div class="uppgifter">
-            <label for="efternamn">Efternamn</label>
-            <input
-              id="efternamn"
-              name="efternamn"
-              type="text"
-              required
-              aria-required="true"
-            />
-          </div>
-          <div class="uppgifter">
-            <label for="varuhus">Önskat varuhus</label>
-            <select name="varuhus" id="varuhus">
-              <option value="borlänge">Borlänge</option>
-              <option value="gävle">Gävle</option>
-              <option value="göteborgb">Göteborg Bäckebol</option>
-              <option value="göteborgk">Göteborg Kollared</option>
-              <option value="haparanda">Haparanda</option>
-              <option value="helsingborg">Helsingborg</option>
-              <option value="jönköping">Jönköping</option>
-              <option value="kalmar">Kalmar</option>
-              <option value="karlstad">Karlstad</option>
-              <option value="lindköping">Lindköping</option>
-              <option value="malmö">Malmö</option>
-              <option value="sthlmb">Stockholm Barkaby</option>
-              <option value="sthlmg">Stockholm Gallerian</option>
-              <option value="sthlmk">Stockholm Kungens kurva</option>
-              <option value="sundsvall">Sundsvall</option>
-              <option value="uddevalla">Uddevalla</option>
-              <option value="umeå">Umeå</option>
-              <option value="uppsala">Uppsala</option>
-              <option value="västerås">Västerås</option>
-              <option value="älmhult">Älmhult</option>
-              <option value="örebro">Örebro</option>
-            </select>
-          </div>
-          <div class="uppgifter">
-            <label for="phone">Mobilnummer (valfritt)</label>
-            <select name="phone" id="phone">
-              <option value="se">Sverige (+46)</option>
-              <option value="fi">Finland (+358)</option>
-              <option value="no">Norge (+47)</option>
-              <option value="da">Danmark (+45)</option>
-              <option value="ry">Ryssland (+7)</option>
-              <option value="ty">Tyskland (+49)</option>
-            </select>
-          </div>
-          <div class="uppgifter">
-            <label for="email">E-mailadress:</label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              aria-required="true"
-            />
-          </div>
-          <div class="uppgifter">
-            <label for="lösenord">Lösenord</label>
-            <input
-              id="lösenord"
-              type="password"
-              name="lösenord"
-              required
-              aria-required="true"
-            />
-          </div>
-          <div class="uppgifter">
-            <div>
-              <label for="policy"
-                >Jag har läst och förstått Integritetspolicy</label
-              >
+          <div class="myForm">
+            <div class="uppgifter">
+              <h3>
+                Vad kul att du vill skapa ett konto hos oss! Bli IKEA Family
+                medlem helt utan kostnad och ta del av erbjudanden och förmåner.
+                Mer information
+              </h3>
+              <label for="prsnr">Personnummer</label>
               <input
-                id="policy"
-                type="checkbox"
-                name="policy"
+                id="prsnr"
+                name="prsnr"
+                type="text"
                 required
                 aria-required="true"
               />
             </div>
-            <div>
-              <label for="användarvillkor"
-                >Jag har läst och förstått Användarvillkor</label
-              >
+            <div class="uppgifter">
+              <label for="förnamn">Förnamn</label>
               <input
-                id="användarvillkor"
-                type="checkbox"
-                name="användarvillkor"
+                id="förnamn"
+                name="förnamn"
+                type="text"
                 required
                 aria-required="true"
               />
             </div>
-            <div>
-              <label for="erbjudanden"
-                >Jag vill få erbjudanden, överraskningar <br />och
-                heminredningsinspiration från IKEA.</label
-              >
-              <input id="erbjudanden" type="checkbox" name="erbjudande" />
+            <div class="uppgifter">
+              <label for="efternamn">Efternamn</label>
+              <input
+                id="efternamn"
+                name="efternamn"
+                type="text"
+                required
+                aria-required="true"
+              />
             </div>
-            <div>
-              <label for="viaepost">Via e-post</label>
-              <input id="viaepost" type="checkbox" name="viaepost" />
+            <div class="uppgifter">
+              <label for="varuhus">Önskat varuhus</label>
+              <select name="varuhus" id="varuhus">
+                <option value="borlänge">Borlänge</option>
+                <option value="gävle">Gävle</option>
+                <option value="göteborgb">Göteborg Bäckebol</option>
+                <option value="göteborgk">Göteborg Kollared</option>
+                <option value="haparanda">Haparanda</option>
+                <option value="helsingborg">Helsingborg</option>
+                <option value="jönköping">Jönköping</option>
+                <option value="kalmar">Kalmar</option>
+                <option value="karlstad">Karlstad</option>
+                <option value="lindköping">Lindköping</option>
+                <option value="malmö">Malmö</option>
+                <option value="sthlmb">Stockholm Barkaby</option>
+                <option value="sthlmg">Stockholm Gallerian</option>
+                <option value="sthlmk">Stockholm Kungens kurva</option>
+                <option value="sundsvall">Sundsvall</option>
+                <option value="uddevalla">Uddevalla</option>
+                <option value="umeå">Umeå</option>
+                <option value="uppsala">Uppsala</option>
+                <option value="västerås">Västerås</option>
+                <option value="älmhult">Älmhult</option>
+                <option value="örebro">Örebro</option>
+              </select>
             </div>
-            <div>
-              <label for="viasms">Vis sms</label>
-              <input id="viasms" type="checkbox" name="viasms" />
+            <div class="uppgifter">
+              <label for="phone">Mobilnummer (valfritt)</label>
+              <select name="phone" id="phone">
+                <option value="se">Sverige (+46)</option>
+                <option value="fi">Finland (+358)</option>
+                <option value="no">Norge (+47)</option>
+                <option value="da">Danmark (+45)</option>
+                <option value="ry">Ryssland (+7)</option>
+                <option value="ty">Tyskland (+49)</option>
+              </select>
             </div>
-            <div>
-              <label for="viapost">Via post</label>
-              <input id="viapost" type="checkbox" name="viapost" />
+            <div class="uppgifter">
+              <label for="email">E-mailadress:</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                aria-required="true"
+              />
             </div>
-            <button class="btn" type="submit">Gå vidare</button>
+            <div class="uppgifter">
+              <label for="lösenord">Lösenord</label>
+              <input
+                id="lösenord"
+                type="password"
+                name="lösenord"
+                required
+                aria-required="true"
+              />
+            </div>
+            <div class="uppgifter">
+              <div>
+                <label for="policy"
+                  >Jag har läst och förstått Integritetspolicy</label
+                >
+                <input
+                  id="policy"
+                  type="checkbox"
+                  name="policy"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div>
+                <label for="användarvillkor"
+                  >Jag har läst och förstått Användarvillkor</label
+                >
+                <input
+                  id="användarvillkor"
+                  type="checkbox"
+                  name="användarvillkor"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div>
+                <label for="erbjudanden"
+                  >Jag vill få erbjudanden, överraskningar <br />och
+                  heminredningsinspiration från IKEA.</label
+                >
+                <input id="erbjudanden" type="checkbox" name="erbjudande" />
+              </div>
+              <div>
+                <label for="viaepost">Via e-post</label>
+                <input id="viaepost" type="checkbox" name="viaepost" />
+              </div>
+              <div>
+                <label for="viasms">Vis sms</label>
+                <input id="viasms" type="checkbox" name="viasms" />
+              </div>
+              <div>
+                <label for="viapost">Via post</label>
+                <input id="viapost" type="checkbox" name="viapost" />
+              </div>
+              <button class="btn" type="submit">Gå vidare</button>
+            </div>
           </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </main>
   </body>
 </html>
